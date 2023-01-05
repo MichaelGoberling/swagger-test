@@ -9,7 +9,7 @@
 <div id="swagger-ui"></div> <!-- Div to hold the UI component -->
 <script>
 window.onload = function () {
-  console.log(window.location.href)
+  console.log(window.location.href.split('/swagger-test/')[1])
 // Begin Swagger UI call region
 const ui = SwaggerUIBundle({
 url: "./test-1/swagger.json", //Location of Open API spec in the repo
