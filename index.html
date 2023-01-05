@@ -10,7 +10,7 @@
 <script>
 window.onload = function () {
   var urlParams = new URLSearchParams(window.location.search);
-  console.log(urlParams);
+  console.log(urlParams.get('spec'));
 // Begin Swagger UI call region
 const ui = SwaggerUIBundle({
 url: "./test-1/swagger.json", //Location of Open API spec in the repo
